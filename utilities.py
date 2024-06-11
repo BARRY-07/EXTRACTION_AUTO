@@ -41,7 +41,7 @@ def add_data_to_existing_excel(df, cell_A2_content, cell_C2_content, feuille,feu
 
     # Assurez-vous que le DataFrame a au moins autant de lignes que nécessaire
     start_row = 4
-    end_row = 63
+    end_row = 150
 
     if len(df) > (end_row - start_row + 1):
         raise ValueError("Le DataFrame contient plus de lignes que la plage cible.")
